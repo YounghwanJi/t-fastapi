@@ -1,0 +1,191 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+
+# uv
+.python-version
+uv.lock
+.uv/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.qa
+.env.stg
+.env.prd
+*.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.cache
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Media files (업로드된 파일들)
+media/
+uploads/
+static/uploads/
+
+# Redis dump
+dump.rdb
+
+# Alembic (DB Migration)
+alembic/versions/*.pyc
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Editor specific
+*.sublime-project
+*.sublime-workspace
+
+# Package managers
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Documentation
+docs/_build/
+site/
+
+# Credentials & Secrets
+*.pem
+*.key
+*.crt
+secrets.json
+credentials.json
+service-account.json
+
+# Local configuration
+local_settings.py
+config.local.py
+
+# Build artifacts
+*.whl
