@@ -13,6 +13,7 @@ $ uv add fastapi
 $ uv add "uvicorn[standard]"
 $ uv add pydantic
 $ uv add pydantic-settings
+$ uv add gitpython
 ```
 
 # Do this
